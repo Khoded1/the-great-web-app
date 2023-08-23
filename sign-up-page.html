@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+		<title>Sign-up Page</title>
+	</head>
+	<body class="sign-up-page">
+		<div class="header">
+			<p class="icon-time-2">9:41</p>
+			<span>
+				<ion-icon class="icons-2" name="cellular"></ion-icon>
+				<ion-icon class="icons-2" name="wifi"></ion-icon>
+				<ion-icon class="icons-2" name="battery-full"></ion-icon>
+			</span>
+		</div>
+		<a href="login_page.html"
+			><ion-icon class="back-icon" name="arrow-back-outline"></ion-icon
+		></a>
+		<h1 class="create-account">Create an account</h1>
+		<form class="sign-up-form" name="sign-up">
+			<div class="email-box sign-up-flex">
+				<label for="email">E-mail</label>
+				<input
+					id="Enter your email or phone number"
+					type="email & tel"
+					placeholder="example@gmail.com"
+					name="email"
+					required
+				/>
+			</div>
+			<div class="sign-up-flex">
+				<label for="password">Password</label>
+				<input
+					id="password"
+					type="password"
+					placeholder="Password"
+					name="password"
+					required
+				/>
+			</div>
+			<p class="required-text">Use at least 8 characters</p>
+			<button class="sign-up-btn">Sign up</button>
+		</form>
+		<p class="sign-up-or">or</p>
+		<div>
+			<a href="#" class="sign-up-with"
+				><ion-icon class="media media-icon-2" name="logo-google"></ion-icon>
+				<p class="google-link">Continue with Google</p>
+			</a>
+		</div>
+		<div class="log-in">
+			<p class="log-in-text">
+				Already have an account?
+				<a class="sign-up-link" href="sign-up-page.html">Log in</a>
+			</p>
+		</div>
+	</body>
+</html>
